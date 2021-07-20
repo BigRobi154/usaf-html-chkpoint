@@ -1,5 +1,24 @@
 nav {
+    overflow: visible;
     width: 100%;
     font-family: sans-serif;
     background-color: #505050;
+    color: white;
+}
+h2 {
+    display: inline; 
+}
+.navSearchDiv{
+    float:right;
+    padding-right: 1%;
+    margin: auto;
+}
+
+.navHomeLink {
+    text-decoration: none;
+    color: white;
+}
+.navLoginLink {
+    color:lightgrey;
+    text-decoration: none;
 }
