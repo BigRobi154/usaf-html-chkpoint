@@ -7,23 +7,28 @@
   </head>
 
   <body>
-
+    <link href="../css/reset.css"
+    rel="stylesheet">
     <link href="../css/navigation.css"
     rel="stylesheet">
-    <nav>
-      <h2>GMDB</h2>
-      <a href="browse.html" class="navHomeLink">Home</a>
-      <a href="login.html" class="navLoginLink">Login</a>
-      <div class='navSearchDiv'>
+    <nav class="navbar">
+      <h2 class="navElem">GMDB</h2>
+      <a href="browse.html" class="navElem navHomeLink">Home</a>
+      <a href="login.html" class="navElem navLoginLink">Login</a>
+      <div class="navSearchDiv">
         <input type="text" name="navSearch" class="navSearch" value = "" placeholder="Search">
-        <button type=submit>Search</button>
+        <button type="submit" class="navSearchButton">Search</button>
       </div>
       
     </nav>
 
+    <link href="../css/login.css"
+    rel="stylesheet">
     <div class="login">
+        <br>
       <h1>Login</h1>
-      <form>
+      <br>
+      <form class="">
         <label>Email:<br>
           <input type="text" value="">
         </label><br>
